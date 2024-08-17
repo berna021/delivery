@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italiana&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#cabecario{
+    width: 100%;
+    background-color: #d4d4d4;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+#italia{
+    position: absolute;
+    bottom: 0.5vh;
+    left: 94.5vh;
+}
+#title{
+    width: 100%;
+    font-size: 70px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+#main-somos{
+    
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+}
+#main-somos p{
+    width: 65%;
+    font-size: 18px;
+    text-align: left;
+}
+#rodape{
+    width: 100%;
+    height: 10vh;
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#rodape p{
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    font-weight: 800;
+}
+main{
+    margin-bottom: 30vh;
+}
+

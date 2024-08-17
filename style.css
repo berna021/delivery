@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+#cabecario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border: 1px black;
+    height: 12vh;
+    width: 100%;
+    background-color: #d4d4d4;
+   
+
+}
+#primeiro{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#svg1 {
+margin-left: 7vh;
+margin-top: 3vh;
+
+}
+#segundo{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+   
+    
+}
+#segundo a{
+    text-decoration: none;
+    color: #919191;
+    padding-left: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 12vh;
+    background-color: #ffffff;
+    border-radius: 5%;
+    vertical-align: middle;
+    margin-right: 0.5vh;
+}
+#terceiro{
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+   
+}
+
+#terceiro a{
+    text-decoration: none;
+    color: white;
+    padding-left: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 2vh;
+    background-color: black;
+    border-radius: 10%;
+    margin-left: 0.5vh;
+}
+#quarta{
+display: flex;
+justify-content: flex-end;
+}
+#quarta img{
+    height: 12vh;
+    margin-right: 10vh;
+}
+#banner01{
+    margin-top: 2vh;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 2vh;
+}
+#title-cardapio{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+    
+}
+
+#menu{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 90%;
+    margin-top: 4vh;
+    margin: auto;
+    position: relative;
+    padding-top: 2%;
+}
+#prato-1{
+   background-image: url(Rectangle%206.png);
+   height: 45vh;
+   background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 90%;
+    
+}
+#text-1{
+    width: 90%;
+    background-color: #d9d9d9;
+    font-size: 14px;
+    text-align: center;
+    padding: 2vh;
+    height: 30vh;
+}
+.Pedir-agora{
+    
+   margin-top: 5vh;
+}
+.Pedir-agora a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+     background-color: #f22020;
+     border-radius: 2vh;
+     border: solid 1px black;
+}
+#prato-2{
+    background-image: url(Massa.png);
+    height: 45vh;
+    background-size: cover;
+     background-repeat: no-repeat; 
+     background-position: center;
+     width: 90%;
+}
+#prato-3{
+    background-image: url(torrada.png);
+    height: 45vh;
+    background-size: cover;
+     background-repeat: no-repeat; 
+     background-position: center;
+     width: 90%;
+}
+#text-2{
+    width: 90%;
+    background-color: #d9d9d9;
+    font-size: 14px;
+    text-align: center;
+    padding: 2vh;
+    height: 30vh;
+}
+#text-3{
+    width: 90%;
+    background-color: #d9d9d9;
+    font-size: 14px;
+    text-align: center;
+    padding: 2vh;
+    height: 30vh;
+}
+#rodape{
+    width: 100%;
+    height: 10vh;
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#rodape p{
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+    font-weight: 800;
+}
+#bolinha{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    position: absolute;
+    background-color: #d9d9d9;
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    border-radius: 70%;
+    left: 9%;
+    top: 2%;
+    
+}
+#bolinha-2{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    position: absolute;
+    background-color: #d9d9d9;
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    border-radius: 70%;
+    left: 39%;
+    top: 2%;
+    
+}
+#bolinha-3{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    position: absolute;
+    background-color: #d9d9d9;
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+    border-radius: 70%;
+    left: 69%;
+    top: 2%;
+    
+}
+
+/*Barra lateral*/
+#barra-lateral{
+   
+    width: 20%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    font-family: "Inter", sans-serif;
+}
+#title{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+#title i{
+    font-size: 40px;
+    margin-left: 60%;
+    font-weight: 1000;
+    position: relative;
+}
+#title h1{
+    font-weight: 1000;
+    font-size: 30px;
+    margin-top: 0;
+}
+hr{
+    color: black;
+    box-shadow: inset;
+      border: none;
+    height: 1px;
+    background-color: #202020;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+h3{
+    font-size: 20px;
+}
+#funcoes{
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-bottom: 8%;
+}
+.montagem{
+   
+    margin-left: 9%;
+    
+   
+    margin-bottom: 8%;
+   
+    
+}
+.montagem i{
+    margin-right: 6%;
+    margin-left: 2%;
+}
+footer{
+    width: 100%;
+    height: 8%;
+    background-color: white;
+}
+#espaço{
+    margin-bottom: 134%;
+}
+.montagem a{
+    text-decoration: none;
+    color: #202020;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: white;
+    border-radius: 10px;
+    padding-right: 50%;
+    transition: .4s;
+   
+}
+.montagem a:hover{
+    margin-left: 2%;
+}
+#ped{
+    padding-right: 60%;
+}
+#cad{
+    padding-right: 60%;
+}
+#sup{
+    padding-right: 60%;
+}
+.display-none{
+    display: none;
+}
+
+.display-block{
+    display: block;
+}
